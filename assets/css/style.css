@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Quintessential&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+.main{
+    background-image: url(../img/diu.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main-overlay{
+    background: rgba(0, 0, 0, .6);
+	padding: 20px 0px;
+}
+.birthday-countdown ul{
+    list-style: none;
+    padding: 0;
+}
+.birthday-countdown ul{
+    padding: 10px 4px;
+}
+.card-title{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 26px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    color: #fff;
+}
+.card-id{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+.dob{
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+.dob span{
+    background: rgb(17 167 172 / 64%);
+    color: #fff;
+    padding: 1px 4px;
+    border-radius: 3px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.title h2{
+    color: #fff;
+    /* background: rgb(0 0 0 / 28%); */
+    padding: 8px 18px;
+    /* border-radius: 3px; */
+    display: inline-block;
+    font-family: 'Quintessential', cursive;
+    letter-spacing: 2px;
+    border-radius: 5px;
+background: linear-gradient(145deg, #12b3b8, #0f969b);
+box-shadow:  5px 5px 10px #0c7377,
+            -5px -5px 10px #0fa5aa;
+}
+.register a{
+    text-decoration: none;
+    background: rgba(165, 42, 42, 0.767);
+    color: #fff;
+    padding: 1px 8px;
+    border-radius: 3px;
+}
+.register{
+    font-weight: 500;
+    font-size: 14px;
+    color: #dee2e6;
+}
+.card{
+    background: rgba( 0, 0, 0, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.card-text{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(11, 147, 151);
+    text-align: center;
+    text-transform: capitalize;
+}
+.birthday-countdown ul hr{
+    height: 20px;
+    width: 2px;
+    /* background: rgb(255, 255, 255); */
+    margin: 0;
+    opacity: 1;
+    /* border-radius: 5px; */
+background: linear-gradient(145deg, #cecece, #6e6e6e);
+box-shadow:  0px 1px 3px #074345,
+            0px 0px 3px #1bffff;
+}
+.birthday-countdown ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: rgb(17 167 172 / 64%); */
+    color: #fff;
+    font-weight: 500;
+    /* border-radius: 3px; */
+    border-radius: 5px;
+    background: #11a7ac;
+    box-shadow: inset 10px 10px 20px #0c7578,
+    inset -10px -10px 20px #16d9e0;
+}
+
+footer{
+    text-align: center;
+    padding: 12px 0;
+    background-color: #A8A8A8;
+}
+footer p a{
+    text-decoration: none;
+    color: #a52a2a;
+    font-weight: 500;
+}
+footer p a:hover{
+    color: #a52a2a;
+    text-decoration: underline;
+}
